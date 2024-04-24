@@ -1,0 +1,65 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+
+
+    <style name="PrimaryButtonStyle" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">@drawable/btn_primary</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:padding">10sp</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:gravity">center</item>
+        <item name="fontFamily">@font/montserrat_medium</item>
+    </style>
+
+    <style name="PrimaryButtonStyleBig" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">@drawable/btn_primary_big</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:padding">10sp</item>
+        <item name="android:layout_margin">15dp</item>
+        <item name="android:gravity">center</item>
+        <item name="fontFamily">@font/montserrat_medium</item>
+    </style>
+
+    <style name="PrimaryButtonStyleHorizontal" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">@drawable/btn_primary</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:padding">10sp</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:gravity">center</item>
+        <item name="fontFamily">@font/montserrat_medium</item>
+    </style>
+    <style name="PrimaryButtonStyleBigHorizontal" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">@drawable/btn_primary_big</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:padding">10sp</item>
+        <item name="android:layout_margin">15dp</item>
+        <item name="android:gravity">center</item>
+        <item name="fontFamily">@font/montserrat_medium</item>
+    </style>
+
+
+    <style name="SecondaryButtonStyle" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:gravity">center</item>
+        <item name="fontFamily">@font/montserrat_medium</item>
+    </style>
+    <style name="SecondaryButtonStyleBig" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textSize">50sp</item>
+        <item name="android:gravity">center</item>
+        <item name="fontFamily">@font/montserrat_medium</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar" >
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+</resources>
